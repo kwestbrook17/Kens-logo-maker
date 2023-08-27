@@ -1,0 +1,20 @@
+{
+  "name": "kens-logo-maker",
+  "version": "1.0.0",
+  "description": "A simple logo maker tool",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["logo", "maker", "web development"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
+
