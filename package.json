@@ -10,11 +10,17 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["logo", "maker", "web development"],
+  "keywords": [
+    "logo",
+    "maker",
+    "web development"
+  ],
   "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.10"
   }
 }
-
