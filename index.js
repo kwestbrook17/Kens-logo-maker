@@ -48,9 +48,9 @@ inquirerPromise.then(inquirerModule => {
     shape.setColor(shapeColor);
 
     const svg = `
-      <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-        <text x="50" y="50" fill="${textColor}" font-size="16">${answers.text}</text>
-      ${shape.getSVG()}
+        <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        ${shape.getSVG()}
+        <text x="150" y="112.5" text-anchor="middle" fill="${textColor}" font-size="60">${answers.text}</text>
       </svg>
     `;
 
